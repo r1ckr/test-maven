@@ -20,7 +20,7 @@
             <url>http://localhost:8082/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>cts-snapshots</id>
+            <id>snapshots</id>
             <url>http://localhost:8082/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
         <!--<site>-->
