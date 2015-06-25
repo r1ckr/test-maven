@@ -10,7 +10,24 @@
   <name>maven-test</name>
   <url>http://maven.apache.org</url>
 
+  <scm>
+    <developerConnection>scm:git:https://github.com/richardpablop/test-maven/</developerConnection>
+  </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://localhost:8082/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>cts-snapshots</id>
+            <url>http://localhost:8082/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <!--<site>-->
+            <!--<id>cts-releases</id>-->
+            <!--<url>dav:http://mavenrepo.synchronoss.net:8081/nexus/content/sites/sites/whitelabel-rpg/${project.version}/</url>-->
+        <!--</site>-->
+    </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
