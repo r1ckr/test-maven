@@ -23,10 +23,6 @@
             <id>snapshots</id>
             <url>http://localhost:8082/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
-        <!--<site>-->
-            <!--<id>cts-releases</id>-->
-            <!--<url>dav:http://mavenrepo.synchronoss.net:8081/nexus/content/sites/sites/whitelabel-rpg/${project.version}/</url>-->
-        <!--</site>-->
     </distributionManagement>
 
   <properties>
